@@ -19,7 +19,12 @@ export const metadata = {
   title: "Adote a Linguiça - Uma Pitbull Cheia de Amor",
   description:
     "Conheça a Linguiça, uma Pitbull de 2 anos resgatada que está à procura de um lar amoroso e responsável.",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+  }
 }
 
 export default function RootLayout({
